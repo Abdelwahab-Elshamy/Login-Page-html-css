@@ -1,0 +1,81 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #4444fc;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Secular One", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/* End Global Rules */
+.box-area {
+  width: 930px;
+}
+/* Right box  */
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+/* Custom Placeholder */
+::placeholder {
+  font-size: 16px;
+}
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
+
+.background-box {
+  background-color: var(--main-color);
+  border: none;
+}
+.forgot a {
+  color: var(--main-color);
+}
+
+.input-group .btn-Login {
+  background-color: var(--main-color);
+}
+.input-group .btn-Login:hover {
+  background-color: #4444fcc9;
+}
+.logo {
+  width: 20px;
+}
+.qr {
+  border-radius: 10px;
+  width: 120px;
+}
+.qr-1 {
+  margin-right: 8px;
+}
+
+.Sec-box {
+  display: flex;
+  justify-content: center;
+}
+.Sec-logo {
+  width: 100px;
+}
+/* Small screen styles (less than 768px) */
+@media (max-width: 767px) {
+  .left-box {
+    height: 502px;
+  }
+}
